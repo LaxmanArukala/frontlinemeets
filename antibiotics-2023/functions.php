@@ -20,7 +20,7 @@ $conf_title = str_replace("</sup>", "", $conf_title);
 
 $f_half = mysqli_query($conn1,"select * from topics_tblstr_d where user='$id' `status`='1' AND  track_id % 2 = 0 order by track_id ASC");
 
-$sessions=mysqli_query($conn1,"select * from topics_tblstr_d where user='$id' order by id ASC");
+$sessions=mysqli_query($conn1,"select * from topics_tblstr_d where user='$id' order by track_id ASC");
 $r2 = mysqli_fetch_array($sessions);
 $session_rows = mysqli_num_rows($sessions);
 $segment = ($session_rows/2);
