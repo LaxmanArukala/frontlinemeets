@@ -228,7 +228,7 @@
                                                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 last sess-background">
                                                                         <ul class="check">
                                                                             <?php
-                                                            include('inc/config.php');
+                                                            include('config/config.php');
                                                             include("functions.php");	
                                                     $f_half = mysqli_query($conn1,"select * from topics_tblstr_d where user='$id' AND `status`='1' AND  track_id % 3 = 1 order by track_id ASC");
                                                             while($row1=mysqli_fetch_array($f_half)){
