@@ -31,6 +31,9 @@ a:focus {
     outline: none;
     text-decoration: none;
 }
+.fw-bold{
+    font-weight: 700!important;
+}
 
 .btn:focus,
 .form-control:focus {
@@ -1195,7 +1198,7 @@ display: block;
 }
 
 .blog .blog-meta i {
-    color: #FF9E7A;
+    color: #ff0000;
     font-size: 18px;
     margin: 0 2px 0 10px;
 }

@@ -45,10 +45,14 @@
 
                         </div>
                         <div class="carousel-text">
-                              <h1>Frontline Meets</h1>
-                            <p>
+                              <h1 class="text-success fw-bold" style="font-weight: 700;text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;  ">Frontline Meets</h1>
+                            <!-- <p>
                                 Frontline Meets provides a colossal and high-quality meeting experience which will add new opportunities to our clients in the science and advancement.
-                            </p>
+                            </p> -->
                            <!-- <div class="carousel-btn">
                                 <a class="btn" href="#"><i class="fa fa-link"></i>Get Started</a>
                                 <a class="btn btn-play" data-toggle="modal" data-src="#" data-target="#videoModal"><i class="fa fa-play"></i>Watch Video</a>
@@ -126,7 +130,7 @@
                            </div> -->
                         <div class="section-header">
                              <h2 style="padding: 43px 0px 0px;">About Organizer</h2>
-                             <p><i>Welcome to Our Event & Conference Services</i></p>
+                             <p><i>Welcome to Our Conference Services</i></p>
                         </div>
                         <div class="row align-items-center">
                             <div class="col-lg-2 col-xl-2 col-xs-12 col-sm-12">
@@ -204,57 +208,75 @@
                      <h2 class="text-center">Why You Should Join?</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6  animation-element slide-left">
+                    <div class="col-lg-3 col-md-6  animation-element slide-left">
                         <div class="service-item">
-                            <i class="fa fa-microphone img"></i>
-                            <h3>Great Speakers</h3>
+                            <!-- <i class="fa fa-microphone img"></i> -->
+                            <h3 class="fw-bold text-success">Specific Networking</h3>
                             <p>
-                                Meet with the specialists in your field and think about their novel research discoveries
+                            Experience a lively environment for productive conversations and interactions to reveal new opportunities.
                             </p>
                          </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 animation-element slide-left">
+                    <div class="col-lg-3 col-md-6 animation-element slide-left">
                         <div class="service-item">
-                            <i class="fa fa-users img"></i>
-                            <h3>New People</h3>
+                            <!-- <i class="fa fa-users img"></i> -->
+                            <h3 class="fw-bold text-success">Incomparable Brilliance</h3>
                             <p>
-                              	 Meet various individuals from various regions all throughout the planet 
+                            A forum where intense discussions about current discoveries take place between young and experienced scholars.
                             </p>
                            </div>
                     </div>
-                    <div class="col-lg-4 col-md-6  animation-element slide-left">
+                    <div class="col-lg-3 col-md-6  animation-element slide-left">
                         <div class="service-item">
-                            <i class="fa fa-bullhorn img"></i>
-                            <h3>Global Event</h3>
+                            <!-- <i class="fa fa-bullhorn img"></i> -->
+                            <h3 class="fw-bold text-success">Dedicated Scholar</h3>
                             <p>
-                               	 Project your exploration in the international platform for new collaborations and networking
+                            Researchers from diverse fields attend the event to present their original research on the topic of expertise.
                             </p>
                               </div>
                     </div>
-                    <div class="col-lg-4 col-md-6  animation-element slide-left">
+                    <div class="col-lg-3 col-md-6  animation-element slide-left">
                         <div class="service-item">
-                             <i class="fa fa-heart img"></i>
-                            <h3>Get Inspired</h3>
+                             <!-- <i class="fa fa-heart img"></i> -->
+                            <h3 class="fw-bold text-success">Outstanding Possibilities</h3>
                             <p>
-                               	 Inspire by the intriguing research introduced by professionals
+                            Use our global media to showcase your accomplishments to a global audience and gain international recognition.
                             </p>
                            </div>
                     </div>
-                    <div class="col-lg-4 col-md-6  animation-element slide-left">
+                    <div class="col-lg-3 col-md-6  animation-element slide-left">
                         <div class="service-item">
-                            <i class="fa fa-cogs img"></i>
-                            <h3>Networking Session</h3>
+                            <!-- <i class="fa fa-cogs img"></i> -->
+                            <h3 class="fw-bold text-success">Motivating Education</h3>
                             <p>
-                              	  An intelligent meeting could edify the novel thoughts, coordinated efforts and improvement in your field 
+                            By connecting the dots between learning, leading, and excelling, you can transform from an aspirant to a future professional.
                             </p>
                             </div>
                     </div>
-                    <div class="col-lg-4 col-md-6  animation-element slide-left">
+                    <div class="col-lg-3 col-md-6  animation-element slide-left">
                         <div class="service-item">
-                            <i class="fa fa-handshake img"></i>
-                            <h3>Meet New Faces</h3>
+                            <!-- <i class="fa fa-handshake img"></i> -->
+                            <h3 class="fw-bold text-success">International Audience</h3>
                             <p>
-                                  Encourage the youthful ability and meet them to set out more open doors for them
+                            We successfully capture the attention of more than 55 countries with their participants by hosting events in all key domains.
+                            </p>
+                         </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6  animation-element slide-left">
+                        <div class="service-item">
+                            <!-- <i class="fa fa-handshake img"></i> -->
+                            <h3 class="fw-bold text-success">Exceptional and Skilled Speakers</h3>
+                            <p>
+                            Our Speakers continue the legacy of being the most well-known in the field with a variety of outstanding achievements.
+                            </p>
+                         </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6  animation-element slide-left">
+                        <div class="service-item">
+                            <!-- <i class="fa fa-handshake img"></i> -->
+                            <h3 class="fw-bold text-success">Excellent Concepts</h3>
+                            <p>
+                            The emphasis is mostly on application-based techniques and novel solutions to some of the most significant global challenges.
                             </p>
                          </div>
                     </div>
@@ -278,19 +300,19 @@
 					 
 				  <div class="row">
 					<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 animation-element slide-left">
-					    <a href="https://auragengroup.com/gwfase-2022/" target="_blank">
+					    <a href="https://www.frontlinemeets.org/infection-2024/" target="_blank">
                             <div>
-                                <img src="img/about.png" class="img-fluid rounded"/>
+                                <img src="assets/images/infectious.png" class="img-fluid rounded"/>
                             </div>
                             <div class="px-2">
                                 <div class="blog-content">
-                                    <h2 class="blog-title"> Global Web Forum on Applied Science & Engineering </h2>
+                                    <h2 class="blog-title">Global Meet on Infectious Diseases </h2>
                                     <div class="blog-meta">
                                         <i class="fa fa-calendar-alt"></i>
-                                        <p><b>Date: August 04-05, 2022</b></p>
+                                        <p><b>Date: March 25-26, 2024</b></p>
                                         </a>
                                         <i class="fa fa-eye"></i> 
-                                        <a href="https://auragengroup.com/gwfase-2022/" target="_blank"><b>View</b>
+                                        <a href="https://www.frontlinemeets.org/infection-2024/" target="_blank"><b>View</b>
                                         </a>
                                     </div>
                                 </div>
@@ -300,19 +322,19 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 animation-element slide-left">
-					    <a href="https://auragengroup.com/gwfase-2022/" target="_blank">
+					    <a href="https://www.frontlinemeets.org/breastcancer-2024/" target="_blank">
                             <div>
-                                <img src="img/about.png" class="img-fluid rounded"/>
+                                <img src="assets/images/bc image.jpg" class="img-fluid rounded"/>
                             </div>
                             <div class="px-2">
                                 <div class="blog-content">
-                                    <h2 class="blog-title"> Global Web Forum on Applied Science & Engineering </h2>
+                                    <h2 class="blog-title"> Global Meet on Breast Cancer </h2>
                                     <div class="blog-meta">
                                         <i class="fa fa-calendar-alt"></i>
-                                        <p><b>Date: August 04-05, 2022</b></p>
+                                        <p><b>Date: March 28-29, 2024</b></p>
                                         </a>
                                         <i class="fa fa-eye"></i> 
-                                        <a href="https://auragengroup.com/gwfase-2022/" target="_blank"><b>View</b>
+                                        <a href="https://www.frontlinemeets.org/breastcancer-2024/" target="_blank"><b>View</b>
                                         </a>
                                     </div>
                                 </div>
@@ -322,19 +344,19 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 animation-element slide-left">
-					    <a href="https://auragengroup.com/gwfase-2022/" target="_blank">
+					    <a href="https://www.frontlinemeets.org/infertility-2024/" target="_blank">
                             <div>
-                                <img src="img/about.png" class="img-fluid rounded"/>
+                                <img src="assets/images/infertility-1.png" class="img-fluid rounded"/>
                             </div>
                             <div class="px-2">
                                 <div class="blog-content">
-                                    <h2 class="blog-title"> Global Web Forum on Applied Science & Engineering </h2>
+                                    <h2 class="blog-title"> Global Meet on <br/>Infertility </h2>
                                     <div class="blog-meta">
                                         <i class="fa fa-calendar-alt"></i>
-                                        <p><b>Date: August 04-05, 2022</b></p>
+                                        <p><b>Date: March 28-29, 2024</b></p>
                                         </a>
                                         <i class="fa fa-eye"></i> 
-                                        <a href="https://auragengroup.com/gwfase-2022/" target="_blank"><b>View</b>
+                                        <a href="https://www.frontlinemeets.org/infertility-2024/" target="_blank"><b>View</b>
                                         </a>
                                     </div>
                                 </div>
@@ -367,7 +389,10 @@
                             </div>
                             <div class="contact-text">
                                 <h3>Our Head Office</h3>
-                                <p>Begumpet, Hyderabad-500016</p>
+                                <p class="" style="font-size: 14px;">Unit No 203, 2nd Floor, Suite #459,
+                                    SBR CV Towers, Sector-I, Sy No 64, HUDA Techno Enclave,
+                                    Madhapur, Hyderabad - 500081
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -376,9 +401,10 @@
                             <div class="contact-icon">
                                 <img src="img/call.png"/>
                             </div>
-                            <div class="contact-text">
+                            <div class="contact-text" style="padding: 1.8rem!important;">
                                 <h3>Call or Whatsapp</h3>
-                                <p>+91 9989 661 232</p>
+                                <p>+91-7032766679</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -387,9 +413,9 @@
                             <div class="contact-icon">
                                <img src="img/mail.png"/>
                             </div>
-                            <div class="contact-text">
+                            <div class="contact-text" style="padding: 1.8rem!important;">
                                 <h3>Email for Information</h3>
-                                <p>contact@auragengroup.com</p>
+                                <p>info@frontlinemeets.org</p>
                             </div>
                         </div>
                     </div>

@@ -32,7 +32,7 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a href="index.php" class="navbar-brand"> <img src="img/logo.png" class="img-responsive" style="width:300px;"></a>
+                <a href="index.php" class="navbar-brand"> <img src="img/logo.png" class="img-responsive" style="width:350px;"></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>

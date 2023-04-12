@@ -7,11 +7,13 @@
                             <div class="text">
                                 <i class="far fa-clock"></i>
                                 <h2>Support:</h2>
-                                <p><a href="mailto:contact@auragengroup.com" title="contact@auragengroup.com"><b>info@auragengroup.com</b></a></p>
+                                <p><a href="mailto:info@frontlinemeets.org" title="info@frontlinemeets.org"><b>info@frontlinemeets.org</b></a></p>
                             </div>
                             <div class="text">
                                 <i class="fas fa-phone-alt"></i>
-                                <h2>+91 9989 661 232</h2>
+                                <h2>
+                                    <a href="tel:+917032766679">+91-7032766679</a>
+                                </h2>
                                  </div>
                         </div>
                     </div>
@@ -19,7 +21,7 @@
                         <div class="top-bar-right">
                             <div class="social">
                                 <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
-                                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://instagram.com/meets_frontline?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fab fa-instagram"></i></a>
                                
                             </div>
                         </div>
@@ -30,9 +32,9 @@
         <!-- Top Bar End -->
 
         <!-- Nav Bar Start -->
-        <div class="navbar navbar-expand-lg navbar-dark">
+        <div class="navbar navbar-expand-lg navbar-dark" style="background: #000000c4;">
             <div class="container-fluid">
-                <a href="index.php" class="navbar-brand"> <img src="img/logo.png" class="img-responsive" style="width:300px;"></a>
+                <a href="index.php" class="navbar-brand"> <img src="img/logo.png" class="img-responsive" style="width:350px;"></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>

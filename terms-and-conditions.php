@@ -229,15 +229,14 @@
                         <p>16.1. Indian law shall govern these terms and conditions and be followed in its interpretation.</p>
                         <p>16.2. The courts of [India] shall have [exclusive] OR [non-exclusive] jurisdiction over any disputes relating to these terms and conditions.</p>
                         <p>17. Statutory and regulatory disclosures</p>
-                        <p>17.1. We are registered in GST; you may find our data with registration number 36ACKPO2105Q1Z9</p>
-                        <p>17.2. We are subject to [authorization scheme], which is supervised by [supervisory authority]</p>
+                        <p>17.1. We are subject to [authorization scheme], which is supervised by [supervisory authority]</p>
                         <p>
-                        17.3. We are governed by guidelines that can be found at https://mca.gov.in and are registered as The Frontline Meets with The Registrar of Companies, Ministry of Corporate Affairs (MCA) in India.
+                        17.2. We are governed by guidelines that can be found at https://mca.gov.in and are registered as The Frontline Meets with The Registrar of Companies, Ministry of Corporate Affairs (MCA) in India.
                         </p>
                         <p>
-                        17.4. We subscribe to code(s) of conduct, which can be consulted electronically atcompany email id.
+                        17.3. We subscribe to code(s) of conduct, which can be consulted electronically atcompany email id.
                         </p>
-                        <p>17.5. Our GST number is 36ACKPO2105Q1Z9</p>
+                        
                         
 				    </div><!--- END COL -->	
                      
