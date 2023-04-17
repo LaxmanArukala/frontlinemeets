@@ -28,6 +28,7 @@ color:#000 !important;
                 <li><a class="nav-link clr2" href="about"> About Conference</a></li>
                 <li><a class="nav-link clr2" href="banners"> Banners</a></li>
                 <li><a class="nav-link clr2" href="chair-cochair"> Chair & Co-Chair</a></li>
+                <li><a class="nav-link clr2" href="important-info"> Important Information</a></li>
                </ul>
             </li>
 			
