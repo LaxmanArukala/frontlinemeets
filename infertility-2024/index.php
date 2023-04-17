@@ -92,7 +92,7 @@
                                     <div class="imp-bg">
                                         <h4 class="text-center imp-icons-tx"><i class="fa fa-file-text-o"></i>  Program</h4>
                                         <hr>
-                                        <h4 class="text-center blink-prog imp-icons-tx"><a href="program.pdf" target="_blank" style="color:#fff;">Click Here to View Program</a></h4>
+                                        <h4 class="text-center blink-prog imp-icons-tx"><a href="program.pdf" target="_blank" >Click Here to View Program</a></h4>
 
                                     </div>                                   
                                 </div>
@@ -107,7 +107,7 @@
 				<a href="download-brochure" class="blink-prog">&nbsp;&nbsp; Download Brochure &nbsp;&nbsp;</a>
 			</div>
 			<div class="popup-btn1">
-				<a href="" class="blink-prog">&nbsp;&nbsp; Abstract Submission &nbsp;&nbsp;</a>
+            <a href="benfits-guidlines" class="blink-prog">&nbsp;&nbsp; Benefits & Guidelines &nbsp;&nbsp;</a>
 			</div>
 			 <?php                  
 		include("config/config.php"); 
@@ -607,7 +607,7 @@
          
 
         
-        <section class="section db p120" id="venue_info">
+        <section class="section db p120" id="venue_info" style="background: #f7c1c1 !important;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">

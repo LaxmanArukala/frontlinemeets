@@ -15,7 +15,7 @@
                         </div><!-- end left -->
                         <div class="col-md-6 col-sm-6 hidden-xs text-right">
                             <div class="social">              
-                                <a class="linkedin" href="#" data-tooltip="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-instagram"></i></a> 
+                                <a class="pinterest" target="_blank" href="https://instagram.com/meets_frontline?igshid=ZDdkNTZiNTM=" data-tooltip="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-instagram"></i></a> 
                                 
                             </div><!-- end social -->
                         </div><!-- end left -->
@@ -33,8 +33,8 @@
                             <span class="icon-bar"></span>
                         </button>
                         <div class="logo-normal">
-                            <a class="navbar-brand text-white" href="https://agmeets.org/whbc-2023/">
-                                WHBC
+                            <a class="navbar-brand text-white" href="https://frontlinemeets.org/breastcancer-2024/">
+                            GMBCAN-2024
                             </a>
                         </div>
                     </div>
@@ -44,8 +44,8 @@
                            <li class="dropdown hassubmenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home <span class="fa fa-angle-down"></span></a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="https://www.auragengroup.com/">Global Home</a></li>
-                                    <li><a href="https://agmeets.org/whbc-2023/">Conference Home</a></li>
+                                    <li><a href="https://frontlinemeets.org/">Global Home</a></li>
+                                    <li><a href="https://frontlinemeets.org/breastcancer-2024/">Conference Home</a></li>
                                 </ul>
                             </li>
                             <li><a href="submit-abstract" >Submit Abstract</a></li>
@@ -70,7 +70,7 @@
                             
                              
                             
-                            <li><a href="program.pdf" target="_blank">Program</a></li>
+                            <!-- <li><a href="program.pdf" target="_blank">Program</a></li> -->
                               <li><a href="register">Registration</a></li>
                               <li><a href="venue-info">Venue Info</a></li>
                                  

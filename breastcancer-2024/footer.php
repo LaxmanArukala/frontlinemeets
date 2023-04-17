@@ -17,7 +17,8 @@
 				
 				
                     <div class="col-lg-4 text-center col-md-4">
-                        <div class="widget clearfix">
+                        <img src="../img/logo.png" class="img-fluid">
+                        <!-- <div class="widget clearfix">
                             <h3 class="widget-title">Subscribe Our Newsletter</h3>
                             <div class="newsletter-widget">
                                 <p>You can opt out of our newsletters at any time.<br> See our <a href="https://www.auragengroup.com/privacy-policy.php" target="_blank">privacy policy</a>.</p>
@@ -27,8 +28,9 @@
                                         <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane-o"></i></button>
                                     </div>
                                 </form>
-                                </div><!-- end newsletter -->
-                        </div><!-- end widget -->
+                                </div>
+                        </div> -->
+                        <!-- end widget -->
                     </div><!-- end col -->
  
                      
@@ -69,7 +71,7 @@
                     <div class="text-center">
                         <div class="footer-links">
                             <ul class="list-inline">
-                                <li> <a>© Copyrights 2022. Auragen Meets All Rights Reserved</a></li>
+                                <li> <a>© Copyrights 2023. Frontlinemeets All Rights Reserved</a></li>
                             </ul>
                         </div>
                     </div>

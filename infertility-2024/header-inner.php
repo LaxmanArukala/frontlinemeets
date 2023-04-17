@@ -30,8 +30,8 @@
                             <span class="icon-bar"></span>
                         </button>
                         <div class="logo-normal">
-                            <a class="navbar-brand text-white" href="https://agmeets.org/surgery-2023/">
-                                ST
+                            <a class="navbar-brand text-white" href="https://frontlinemeets.org/infertility-2024/">
+                             GMINFY-2024
                             </a>
                         </div>
                     </div>
@@ -41,8 +41,8 @@
                              <li class="dropdown hassubmenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home <span class="fa fa-angle-down"></span></a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="https://www.auragengroup.com/">Global Home</a></li>
-                                    <li><a href="https://agmeets.org/surgery-2023/">Conference Home</a></li>
+                                    <li><a href="https://frontlinemeets.org/">Global Home</a></li>
+                                    <li><a href="https://frontlinemeets.org/infertility-2024/">Conference Home</a></li>
                                 </ul>
                             </li>
                             <li><a href="submit-abstract">Submit Abstract</a></li>
@@ -65,7 +65,7 @@
                                 </ul>
                             </li> -->
                              
-                            <li><a href="program.pdf" target="_blank">Program</a></li>
+                            <!-- <li><a href="program.pdf" target="_blank">Program</a></li> -->
                              <li><a href="register">Registration</a></li>
                                    <li><a href="venue-info">Venue Info</a></li>
                                     
