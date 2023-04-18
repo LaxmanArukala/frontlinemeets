@@ -81,7 +81,7 @@
                                          <?php
                            include('inc/config.php');
                            include("functions.php");	
-				 $f_half = mysqli_query($conn1,"select * from topics_tblstr_d where user='$id' AND `status`='1' AND  track_id % 2 = 1 order by track_id ASC");
+				 $f_half = mysqli_query($conn1,"select * from topics_tblstr_d where user='$id' AND `status`='1' AND  track_id % 2 = 1 order by track_id DESC");
 						while($row1=mysqli_fetch_array($f_half)){
 						?>	
 									<li style="color:#fff;"><?php echo $row1['track_name'];?></li>
@@ -96,7 +96,7 @@
                                     <?php
                            include('inc/config.php');
                            include("functions.php");	
-				 $f_half = mysqli_query($conn1,"select * from topics_tblstr_d where user='$id' AND `status`='1' AND  track_id % 2 = 0 order by track_id ASC");
+				 $f_half = mysqli_query($conn1,"select * from topics_tblstr_d where user='$id' AND `status`='1' AND  track_id % 2 = 0 order by track_id DESC");
 						while($row1=mysqli_fetch_array($f_half)){
 						?>
 									<li style="color:#fff;"><?php echo $row1['track_name'];?></li>

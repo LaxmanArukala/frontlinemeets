@@ -12,7 +12,7 @@ if($_SESSION['sess_member']=="")
 					
 			if($id!="")
 			{
-			        @$q_fres = mysqli_query($con,"select *from topics_tblstr_d where id='$id'");
+			        @$q_fres = mysqli_query($con,"select *from topics_tblstr_d where id='$id' order by track_id desc");
 					@$fres_rw = mysqli_fetch_assoc($q_fres);
 					//-----------------------------
 					@$d_photo = "photos/".@$fres_rw['photo'];					
@@ -109,7 +109,7 @@ function cmsdel(id)
                           <th>Delete</th>
                         </tr>
 						 <?php
-				$query  = "SELECT *FROM topics_tblstr_d WHERE user='".$_SESSION['sess_member']."' ORDER BY recordListingID ASC";
+				$query  = "SELECT *FROM topics_tblstr_d WHERE user='".$_SESSION['sess_member']."' ORDER BY track_id DESC";
 				$result =  mysqli_query($con,$query);	
 				$i=1;		
 				if(mysqli_num_rows($result)>0)
