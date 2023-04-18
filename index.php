@@ -433,27 +433,32 @@
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
         <script>
-        $(document).ready(function() {
-            $('#contactForm').on('submit',function(){
-                $('.output_message').text('Sending...'); 
-                var form = $(this);
-                $.ajax({
-                    url: form.attr('action'),
-                    method: form.attr('method'),
-                    data: form.serialize(),
-                    success: function(result){
-                        $("#contactForm").trigger("reset");
-                        if (result == 'success'){
-                            $('.output_message').text('Message Sent!');  
-                        } else {
-                            $('.output_message').text('Error Sending email!');
-                        }
-                    }
-                });
-                return false;   
-            });
+        // Listen for the form submission event
+        $('.contactForm').submit(function(event) {
+          // Prevent the default form submission behavior
+          event.preventDefault();
+
+          // Send the form data to the server
+          $.ajax({
+            url: 'send-mail',
+            type: 'POST',
+            data: $(this).serialize(),
+            success: function(response) {
+              // Handle the response from the server
+                $(".contactForm").trigger("reset");
+                if (result == 'success'){
+                    $('.output_message').text('Message Sent!');  
+                } else {
+                    $('.output_message').text('Error Sending email!');
+                }
+            },
+            error: function(xhr, status, error) {
+              // Handle any errors that occur
+              console.error(error);
+            }
+          });
         });
-    </script>
+            </script>
     </body>
 
 </html>

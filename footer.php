@@ -2,7 +2,7 @@
         <div class="footer">
             <div class="container">
                 <div class="contact-form bg-white p-4">
-                    <form class="contactForm" action="send-mail" method="post" >
+                    <form class="contactForm">
                         <div class="row mb-3">
                             <div class="col-lg-7 animation-element slide-left">
                                 <!-- <div class="row">
