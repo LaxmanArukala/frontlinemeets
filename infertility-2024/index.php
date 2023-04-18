@@ -281,13 +281,7 @@
                                 <div style="margin-top: 20px">
                                     <div class="row">
                                         <div class="col-lg-12" >
-                                            <ul>
-                                                <li>Healthcare Scientists and Professors</li>
-                                                <li>Healthcare Scientists and Professors</li>
-                                                <li>Healthcare Scientists and Professors</li>
-                                                <li>Healthcare Scientists and Professors</li>
-                                                <li>Healthcare Scientists and Professors</li>
-                                            </ul>
+                                            <?php echo $impInfoDetails['home']; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -304,7 +298,7 @@
                                 <h4>ABOUT THE CONFERENCE:</h4>
                                 <div role="tabpanel" class="tab-pane active about-cf" id="material">
                                                                                                     
-                                <?php echo $r4['home']; ?>
+                                <?php //echo $r4['home']; ?>
                                 </div>
                                                                 
                             

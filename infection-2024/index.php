@@ -288,13 +288,7 @@
                                     <div style="margin-top: 20px">
                                         <div class="row">
                                             <div class="col-lg-12" >
-                                                <ul>
-                                                    <li>Healthcare Scientists and Professors</li>
-                                                    <li>Healthcare Scientists and Professors</li>
-                                                    <li>Healthcare Scientists and Professors</li>
-                                                    <li>Healthcare Scientists and Professors</li>
-                                                    <li>Healthcare Scientists and Professors</li>
-                                                </ul>
+                                                <?php echo $impInfoDetails['home']; ?>
                                             </div>
                                         </div>
                                     </div>
