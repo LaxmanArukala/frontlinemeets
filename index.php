@@ -300,7 +300,7 @@
 					 
 				  <div class="row">
 					<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 animation-element slide-left">
-					    <a href="https://www.frontlinemeets.org/infection-2024/" target="_blank">
+					    <a href="https://frontlinemeets.org/infection-2024/" target="_blank">
                             <div>
                                 <img src="assets/images/infectious.png" class="img-fluid rounded"/>
                             </div>
@@ -312,7 +312,7 @@
                                         <p><b>Date: March 25-26, 2024</b></p>
                                         </a>
                                         <i class="fa fa-eye"></i> 
-                                        <a href="https://www.frontlinemeets.org/infection-2024/" target="_blank"><b>View</b>
+                                        <a href="https://frontlinemeets.org/infection-2024/" target="_blank"><b>View</b>
                                         </a>
                                     </div>
                                 </div>
@@ -322,7 +322,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 animation-element slide-left">
-					    <a href="https://www.frontlinemeets.org/breastcancer-2024/" target="_blank">
+					    <a href="https://frontlinemeets.org/breastcancer-2024/" target="_blank">
                             <div>
                                 <img src="assets/images/bc image.jpg" class="img-fluid rounded"/>
                             </div>
@@ -334,7 +334,7 @@
                                         <p><b>Date: March 28-29, 2024</b></p>
                                         </a>
                                         <i class="fa fa-eye"></i> 
-                                        <a href="https://www.frontlinemeets.org/breastcancer-2024/" target="_blank"><b>View</b>
+                                        <a href="https://frontlinemeets.org/breastcancer-2024/" target="_blank"><b>View</b>
                                         </a>
                                     </div>
                                 </div>
@@ -344,7 +344,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 animation-element slide-left">
-					    <a href="https://www.frontlinemeets.org/infertility-2024/" target="_blank">
+					    <a href="https://frontlinemeets.org/infertility-2024/" target="_blank">
                             <div>
                                 <img src="assets/images/infertility-1.png" class="img-fluid rounded"/>
                             </div>
@@ -356,7 +356,7 @@
                                         <p><b>Date: March 28-29, 2024</b></p>
                                         </a>
                                         <i class="fa fa-eye"></i> 
-                                        <a href="https://www.frontlinemeets.org/infertility-2024/" target="_blank"><b>View</b>
+                                        <a href="https://frontlinemeets.org/infertility-2024/" target="_blank"><b>View</b>
                                         </a>
                                     </div>
                                 </div>
