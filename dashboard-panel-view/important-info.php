@@ -9,7 +9,7 @@ if(!isset($_SESSION['cname']))
 {
 	header('location:index');
 }
-$result1 = mysqli_query($con,"select home from homepage_tblstr_d where id='".$_SESSION['sess_member']."'");
+$result1 = mysqli_query($con,"select home from important_informations where id='".$_SESSION['sess_member']."'");
 
 ?> 
 <!DOCTYPE html>
@@ -18,7 +18,7 @@ $result1 = mysqli_query($con,"select home from homepage_tblstr_d where id='".$_S
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Dashboard | About Conference</title>
+  <title>Dashboard | Important Information</title>
 
   <!-- General CSS Files -->
   <link rel="stylesheet" href="assets/modules/bootstrap/css/bootstrap.min.css">
@@ -45,7 +45,7 @@ $result1 = mysqli_query($con,"select home from homepage_tblstr_d where id='".$_S
       <div class="main-content">
         <section class="section">
            <div class="section-header">
-            <h1>About Conference</h1>
+            <h1>Important Information</h1>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active"><a href="#">Dashboard</a></div>
               <div class="breadcrumb-item"><a href="#">Important Information</a></div>
@@ -56,7 +56,7 @@ $result1 = mysqli_query($con,"select home from homepage_tblstr_d where id='".$_S
              <div class="col-12 mb-4">
               <div style="border:2px solid #3abaf4;">
 
-    <form name="form1" action="updates1" method="post">
+    <form name="form1" action="information-update" method="post">
      	
 		                 <textarea class="summernote" name="editor1">
 						 <?php
