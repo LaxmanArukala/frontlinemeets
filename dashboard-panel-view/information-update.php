@@ -30,7 +30,7 @@ foreach ( $postArray as $sForm => $value )
 		$res=mysqli_query($con,"UPDATE important_informations set home='$value' where id='".$_SESSION['sess_member']."'") or die(mysqli_error($con));
 		if($res)
 		{
-			header('location:about');
+			header('location:important-info');
 		}
 	}
 	else
@@ -38,7 +38,7 @@ foreach ( $postArray as $sForm => $value )
 		$ins=mysqli_query($con,"INSERT INTO important_informations(home,id) values('$value','".$_SESSION['sess_member']."')") or die(mysqli_error($con));
 		if($ins)
 		{
-			header('location:about');
+			header('location:important-info');
 		}
 	}
 ?>
