@@ -34,6 +34,9 @@ $r3 = mysqli_fetch_array($login_details);
 $about = mysqli_query($conn1,"select * from homepage_tblstr_d where id='$id'");
 $r4 = mysqli_fetch_array($about);
 
+$impInfo = mysqli_query($conn1,"select * from important_informations where id='$id'");
+$impInfoDetails = mysqli_fetch_array($impInfo);
+
 $conf_high=mysqli_query($conn1,"select * from conf_highlights_tblstr_d where id='$id'");
 $r5=mysqli_fetch_assoc($conf_high); 
 
