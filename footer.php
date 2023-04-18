@@ -2,7 +2,7 @@
         <div class="footer">
             <div class="container">
                 <div class="contact-form bg-white p-4">
-                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                    <form name="sentMessage" id="contactForm" novalidate="novalidate" action="send-email">
                         <div class="row mb-3">
                             <div class="col-lg-7 animation-element slide-left">
                                 <!-- <div class="row">
@@ -34,15 +34,15 @@
                                 <div class="">
                                     <div id="success"></div>
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
@@ -59,12 +59,13 @@
                                     </div>
                                 </div> -->
                                 <div class="control-group mt-5">
-                                    <textarea class="form-control" rows="3" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                    <textarea class="form-control" rows="3" id="message" name="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="text-right">
                                     <button class="btn btn-success" type="submit" id="sendMessageButton">Send Message</button>
                                 </div>
+                                <span class="output_message"></span>
                             </div>
                         </div>
                     </form>
@@ -82,3 +83,27 @@
         <!-- Footer End -->
 
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+        <script>
+        $(document).ready(function() {
+        $('#contactForm').on('submit',function(){
+         $('.output_message').text('Sending...'); 
+         var form = $(this);
+        $.ajax({
+            url: form.attr('action'),
+            method: form.attr('method'),
+            data: form.serialize(),
+            success: function(result){
+                $("#contactForm").trigger("reset");
+                if (result == 'success'){
+                    $('.output_message').text('Message Sent!');  
+                } else {
+                    $('.output_message').text('Error Sending email!');
+                }
+            }
+        });
+         return false;   
+    });
+});
+    </script>
