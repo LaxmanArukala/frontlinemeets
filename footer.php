@@ -2,7 +2,7 @@
         <div class="footer">
             <div class="container">
                 <div class="contact-form bg-white p-4">
-                    <form name="sentMessage" id="contactForm" novalidate="novalidate" action="send-mail" method="post" >
+                    <form class="contactForm" action="send-mail" method="post" >
                         <div class="row mb-3">
                             <div class="col-lg-7 animation-element slide-left">
                                 <!-- <div class="row">
@@ -63,7 +63,7 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="text-right">
-                                    <button class="btn btn-success" type="submit" id="sendMessageButton">Send Message</button>
+                                    <button class="btn btn-success" type="submit" name="send">Send Message</button>
                                 </div>
                                 <span class="output_message"></span>
                             </div>
