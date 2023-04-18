@@ -432,6 +432,28 @@
          <script src="js/easing.min.js"></script>
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script>
+        $(document).ready(function() {
+            $('#contactForm').on('submit',function(){
+                $('.output_message').text('Sending...'); 
+                var form = $(this);
+                $.ajax({
+                    url: form.attr('action'),
+                    method: form.attr('method'),
+                    data: form.serialize(),
+                    success: function(result){
+                        $("#contactForm").trigger("reset");
+                        if (result == 'success'){
+                            $('.output_message').text('Message Sent!');  
+                        } else {
+                            $('.output_message').text('Error Sending email!');
+                        }
+                    }
+                });
+                return false;   
+            });
+        });
+    </script>
     </body>
 
 </html>

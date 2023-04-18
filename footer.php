@@ -83,27 +83,3 @@
         <!-- Footer End -->
 
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-
-        <script>
-        $(document).ready(function() {
-            $('#contactForm').on('submit',function(){
-                $('.output_message').text('Sending...'); 
-                var form = $(this);
-                $.ajax({
-                    url: form.attr('action'),
-                    method: form.attr('method'),
-                    data: form.serialize(),
-                    success: function(result){
-                        $("#contactForm").trigger("reset");
-                        if (result == 'success'){
-                            $('.output_message').text('Message Sent!');  
-                        } else {
-                            $('.output_message').text('Error Sending email!');
-                        }
-                    }
-                });
-                return false;   
-            });
-        });
-    </script>
