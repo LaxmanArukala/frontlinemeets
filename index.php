@@ -446,8 +446,8 @@
             success: function(response) {
               // Handle the response from the server
                 $(".contactForm").trigger("reset");
-                if (result == 'success'){
-                    $('.output_message').text('Message Sent!');  
+                if (response == 'success'){
+                    $('.output_message').text('Email Sent!');  
                 } else {
                     $('.output_message').text('Error Sending email!');
                 }
