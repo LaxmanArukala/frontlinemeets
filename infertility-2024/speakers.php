@@ -73,9 +73,9 @@ include('functions.php');
             <div class="row">
               <div class="col-lg-12">
                 <ul class="nav nav-pills nav-justified">
-                    <li class="active"><a data-toggle="tab" href="#ps">Pleanary Speakers</a></li>
-                  <li><a data-toggle="tab" href="#is">Invited Speakers </a></li> 
+                    <!-- <li class="active"><a data-toggle="tab" href="#ps">Pleanary Speakers</a></li> -->
                     <li><a data-toggle="tab" href="#ks">Keynote Speakers</a></li> 
+                  <li><a data-toggle="tab" href="#is">Invited Speakers </a></li> 
                     <li><a data-toggle="tab" href="#fs">Featured Speakers</a></li> 
                 </ul>
 

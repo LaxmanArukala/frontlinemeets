@@ -7,7 +7,7 @@
                             <h3 class="widget-title">Reach Us</h3>
                             <div class="">   
                                 <div class="list-inline">
-                                    <p><a href="#">+91 9989 661 232 </a></p>
+                                    <p><a href="#">+91-7032766679  </a></p>
                                     <p><a href="#"><?php echo $r1['EmailId1'];?></a></p>
                                      </div>
                             </div><!-- end list-widget -->

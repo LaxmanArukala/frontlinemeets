@@ -95,7 +95,7 @@
                                 </div>
                                 <div class="col-md-4 mb-4">
                                 <div class="imp-bg">
-                                    <h4 class="text-center imp-icons-tx"><i class="fa fa-file-text-o"></i>  Deadlines</h4>
+                                    <h4 class="text-center imp-icons-tx"><i class="fa fa-file-text-o"></i>  Program</h4>
                                     <hr>
                                     <h4 class="text-center blink-prog imp-icons-tx">
                                         <!-- <a href="program.pdf" target="_blank" style="color:#fff;">Click Here to View Program</a> -->

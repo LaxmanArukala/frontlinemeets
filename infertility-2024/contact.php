@@ -89,7 +89,7 @@
                     <img src="images/logo2.png" class=""/>
                     <h5 style="font-size: 18px;margin-bottom: 20px;"><i class="fa fa-map-marker"></i> <?php echo $r1['ConferenceVenue'];?></h5>
                      <h5 style="font-size: 18px;margin-bottom: 20px;"><i class="fa fa-envelope"></i>  <?php echo $r1['EmailId1'];?></h5>
-                    <h5 style="font-size: 18px;margin-bottom: 20px;"><i class="fa fa-phone"></i> +91 9989 661 232</h5>
+                    <h5 style="font-size: 18px;margin-bottom: 20px;"><i class="fa fa-phone"></i> +91-7032766679 </h5>
 
                 </div>
 

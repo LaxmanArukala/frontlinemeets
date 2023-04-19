@@ -160,9 +160,9 @@ a {
 .check li {
     list-style: none;
     margin-bottom: 8px;
-    border-bottom: 2px solid #14a098;
+    /* border-bottom: 2px solid #14a098; */
     padding: 10px;
-    color: #fff;
+    color: #000;
     /* text-decoration: underline; */
 }
 .check li:last-child {
@@ -1237,7 +1237,7 @@ SECTIONS
 	font-size:14px;
 }
 .sess-background{
-	background: #0f292f;
+	background: #f7c1c1;
 	border-left: 2px solid #fff;
 	border-right: 2px solid #fff;
 }
